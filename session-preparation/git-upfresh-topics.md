@@ -7,9 +7,9 @@
 * ort merge algorithm
 * replace a single commit (amend) with fixup
 
-´´´ shell
+```shell
 marko@hp-lx:~/projects/git$ git commit --fixup=amend:6e158
 [main d320976] amend! Three
 marko@hp-lx:~/projects/git$ git rebase -i c30cc --autosquash
 Erfolgreich Rebase ausgeführt und refs/heads/main aktualisiert.
-´´´
+```
